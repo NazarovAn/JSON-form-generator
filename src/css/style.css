@@ -1,0 +1,84 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  background-color: rgb(245, 245, 245);
+  border: 4px solid rgb(240, 240, 240);
+  border-radius: 4px;
+  margin: auto;
+  padding: 1em 1.5em;
+  min-height: 300px;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.form p {
+  font-size: 1.2em;
+}
+
+.text_field {
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+}
+.text_field label {
+  margin-bottom: 5px;
+  font-size: .8em;
+}
+.text_field input {
+  padding: 5px 10px;
+  font-size: .8em;
+}
+
+.radio_class {
+  padding: 10px 0;
+}
+.radio_class div {
+  margin-bottom: 6px;
+}
+.radio_class div:last-child {
+  margin-bottom: 0;
+}
+.radio_class input {
+  margin-left: 10px;
+}
+
+.textarea_class {
+  padding-top: 10px;
+}
+.textarea_class textarea {
+  padding: 5px 10px;
+  width: 100%;
+  resize: vertical;
+  box-sizing: border-box;
+}
+.textarea_class label {
+  margin-bottom: 5px;
+  font-size: .8em;
+}
+
+.select_class {
+  padding-top: 5px;
+}
+.select_class select {
+  display: block;
+  width: 100%;
+  padding: 5px 10px;
+}
+.select_class label {
+  margin-bottom: 5px;
+  font-size: .8em;
+}
+
+.checkbox_class {
+  padding-top: 5px;
+}
+.checkbox_class input {
+  margin-left: 10px;
+}
+
+.button_class {
+  padding: 5px 10px;
+  margin-top: 10px;
+  width: 100px;
+  margin-left: auto;
+  margin-right: 0;
+}

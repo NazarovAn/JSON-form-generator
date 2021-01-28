@@ -1,0 +1,153 @@
+{
+  "form": {
+    "name": "Form-one",
+    "postmessage": "Сообщение в случае успешного заполнения формы",
+    "items": [
+      {
+        "type": "filler",
+        "attributes": {
+          "message": "Произвольный текст"
+        }
+      }, 
+      {
+        "type": "text",
+        "attributes": {
+          "name": "text_field 1",
+          "placeholder": "Name",
+          "required": true,
+          "value": "",
+          "label": "Label for field \"Name\"",
+          "class": "text_field",
+          "validationRules": [{
+            "type": "text"
+          }],
+          "disabled": false
+        }
+      },
+      {
+        "type": "text",
+        "attributes": {
+          "name": "text_field 2",
+          "placeholder": "Email",
+          "required": true,
+          "value": "text_field@example.ru",
+          "label": "",
+          "class": "text_field",
+          "validationRules": [{
+            "type": "email"
+          }],
+          "disabled": false
+        }
+      },
+      {
+        "type": "text",
+        "attributes": {
+          "name": "text_field 3",
+          "placeholder": "Phone number",
+          "required": true,
+          "value": "",
+          "label": "",
+          "class": "text_field",
+          "validationRules": [{
+            "type": "email"
+          }],
+          "disabled": true
+        }
+      },
+      {
+        "type": "radio",
+        "attributes": {
+          "name": "radio",
+          "label": "Label for radio",
+          "class": "radio_class",
+          "disabled": false,
+          "items": [
+            {
+              "value": "item 1",
+              "label": "Label for item 1",
+              "checked": false
+            },
+            {
+              "value": "item 2",
+              "label": "Label for item 2",
+              "checked": false
+            },
+            {
+              "value": "item 3",
+              "label": "Label for item 3",
+              "checked": true
+            }
+          ]
+        }
+      },
+      {
+        "type": "select",
+        "attributes": {
+          "name": "Имя элемента",
+          "value": "",
+          "label": "Label for select",
+          "class": "select_class",
+          "options": [
+            {
+              "value": "option-1",
+              "text": "Option 1",
+              "selected": false
+            },
+            {
+              "value": "option-2",
+              "text": "Option 2",
+              "selected": true
+            },
+            {
+              "value": "option-3",
+              "text": "Option 3",
+              "selected": false
+            }
+          ],
+          "disabled": false
+        }
+      },
+      {
+        "type": "textarea",
+        "attributes": {
+          "name": "textarea_field",
+          "placeholder": "Textarea placeholder",
+          "required": true,
+          "value": "",
+          "label": "Label for textarea",
+          "class": "textarea_class",
+          "disabled": false
+        }
+      },
+      {
+        "type": "checkbox",
+        "attributes": {
+          "name": "Имя элемента",
+          "required": true,
+          "checked": true,
+          "label": "Checkbox 1",
+          "class": "checkbox_class",
+          "disabled": false
+        }
+      },
+      {
+        "type": "checkbox",
+        "attributes": {
+          "name": "Имя элемента",
+          "required": true,
+          "checked": true,
+          "label": "Checkbox 2",
+          "class": "checkbox_class",
+          "disabled": false
+        }
+      },
+      {
+        "type": "button",
+        "attributes": {
+          "text": "Submit",
+          "class": "button_class"
+        }
+      }
+    ]
+  }
+}
